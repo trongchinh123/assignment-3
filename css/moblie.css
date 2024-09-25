@@ -1,0 +1,16 @@
+/* Khi màn hình nhỏ hơn 768px */
+@media (max-width: 576px) {
+  #certificate .section-content {
+    grid-template-columns: 1fr !important; /* Chuyển thành 1 cột */
+    grid-gap: 10px;
+  }
+
+  .card {
+    display: flex; /* Hoặc điều chỉnh để phù hợp với layout 1 cột */
+    flex-direction: column; /* Đặt các card thành cột để phù hợp với layout 1 cột */
+  }
+  #project .section-content {
+    grid-template-columns: 1fr !important; /* Chuyển thành 1 cột */
+    grid-gap: 10px;
+  }
+}

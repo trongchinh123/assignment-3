@@ -1,0 +1,12 @@
+/* Ẩn đi khi kích thước màn hình nhỏ hơn hoặc bằng 1024px (tablet) */
+@media (min-width: 577px) and (max-width: 1024px) {
+  .nav-brand {
+    display: none;
+  }
+  #project .pro {
+    min-width: 200px !important;
+  }
+  .tree2 {
+    flex-direction: column;
+  }
+}
