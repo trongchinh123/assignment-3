@@ -4,7 +4,7 @@
     display: none;
   }
   #project .pro {
-    min-width: 200px !important;
+    min-width: 150px !important;
   }
   .tree2 {
     flex-direction: column;
